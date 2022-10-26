@@ -1,0 +1,11 @@
+.card-container{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    padding: 30px;
+}
+
+.slide-container{
+    width: 50%;
+    margin: 0 auto;
+}
