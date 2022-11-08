@@ -10,23 +10,22 @@
 
 */
 
-// let edad = prompt("Escriba su edad")
+let edad = prompt("Escriba su edad")
 
-// if (edad < 16) {
-// 	alert("Usted no puede ingresar.");
-// }
+if (edad < 16) {
+	alert("Usted no puede ingresar.");
+}
 
-// const miTitulo = document.querySelector('h1');
-// miTitulo.textContent = '¡Hola Mundo!';
+const miTitulo = document.querySelector('h1');
+miTitulo.textContent = '¡Hola Mundo!';
 
-// let nombre = "Facundo";
-// let apellido = "Vacotti";
-// let edadF = "22"
-// let tieneMascota = true;
+let nombre = "Facundo";
+let apellido = "Vacotti";
+let edadF = "22"
+let tieneMascota = true;
 
 // le pregunto al usuario cuál es su nombre
 
-/*
 let nombreUser = prompt("Escriba su nombre: ");
 let apellidoUser = prompt("Escriba su apellido: ");
 let edadUser = prompt("Escriba su edad: ");
@@ -40,18 +39,16 @@ else {
 	mascotaUser = false;
 }
 
-*/
-
 // arrays
 
 let listaDeCompras = [];
 
-let articulo1 = prompt("escriba item");
+let item1 = prompt("escriba item");
 
-listaDeCompras[0] = articulo1;
+listaDeCompras[0] = item1;
 console.log(listaDeCompras);
 
-let articulo2 = prompt ("escriba item");
+let item2 = prompt("escriba item");
 
-listaDeCompras [1] = articulo2;
+listaDeCompras [1] = item2;
 console.log(listaDeCompras);
