@@ -8,6 +8,8 @@
 6. otros condicionales (switch) (alternativa a if y else)
 7. métodos (prompt, alert)
 
+. console.log me muestra lo que hice
+
 */
 
 let edad = prompt("Escriba su edad")
